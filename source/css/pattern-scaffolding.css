@@ -1,0 +1,283 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+#sg-patterns {
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  max-width: 100%;
+  padding: 0 0.5em;
+}
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sg-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sg-colors li {
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  padding: 0.3em;
+  margin: 0 0.5em 0.5em 0;
+  min-width: 5em;
+  max-width: 14em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sg-swatch {
+  display: block;
+  height: 4em;
+  margin-bottom: 0.3em;
+  border-radius: 5px;
+}
+
+.sg-label {
+  font-size: 90%;
+  line-height: 1;
+}
+
+/* color dark */
+
+.kp-bg-dark-1 {
+  background-color: #000000;
+}
+
+.kp-bg-dark-2 {
+  background-color: #18191A;
+}
+
+.kp-bg-dark-3 {
+  background-color: #1F2021;
+}
+
+.kp-bg-dark-4 {
+  background-color: #2D2E2E;
+}
+
+.kp-bg-dark-5 {
+  background-color: #676769;
+}
+
+/* Light */
+
+.kp-bg-light-1 {
+  background-color: #B4B5B8;
+}
+
+.kp-bg-light-2 {
+  background-color: #E1E2E6;
+}
+
+.kp-bg-light-3 {
+  background-color: #ECEDF1;
+}
+
+.kp-bg-light-4 {
+  background-color: #F7F8FC;
+}
+
+.kp-bg-light-5 {
+  background-color: #FFFFFF;
+}
+
+/* K purple */
+.kp-bg-purple-1 {
+  background-color: #610F9C;
+}
+
+.kp-bg-purple-2 {
+  background-color: #9816F4;
+}
+
+.kp-bg-purple-3 {
+  background-color: #BD6AF8;
+}
+
+.kp-bg-purple-4 {
+  background-color: #D095FA;
+}
+
+.kp-bg-purple-5 {
+  background-color: #F5E9FE;
+}
+
+/* red */
+
+.kp-bg-red-1 {
+  background-color: #B73F4D;
+}
+
+.kp-bg-red-2 {
+  background-color: #FB5669;
+}
+
+.kp-bg-red-3 {
+  background-color: #FC8491;
+}
+
+.kp-bg-red-4 {
+  background-color: #FCA2AD;
+}
+
+.kp-bg-red-5 {
+  background-color: #FEEFF1;
+}
+
+/* green */
+
+.kp-bg-green-1 {
+  background-color: #3AA68E;
+}
+
+.kp-bg-green-2 {
+  background-color: #50E3C2;
+}
+
+.kp-bg-green-3 {
+  background-color: #6FE8CD;
+}
+
+.kp-bg-green-4 {
+  background-color: #9FEFDD;
+}
+
+.kp-bg-green-5 {
+  background-color: #EFFCF9;
+}
+
+/* blue */
+
+.kp-bg-blue-1 {
+  background-color: #3E57B8;
+}
+
+.kp-bg-blue-2 {
+  background-color: #5677FC;
+}
+
+.kp-bg-blue-3 {
+  background-color: #849CFC;
+}
+
+.kp-bg-blue-4 {
+  background-color: #A2B3FD;
+}
+
+.kp-bg-blue-5 {
+  background-color: #EFF2FE;
+}
+
+/* Yellow */
+
+.kp-bg-yellow-1 {
+  background-color: #CA9B4F;
+}
+
+.kp-bg-yellow-2 {
+  background-color: #F6BD60;
+}
+
+.kp-bg-yellow-3 {
+  background-color: #F7C97C;
+}
+
+.kp-bg-yellow-4 {
+  background-color: #FADBA8;
+}
+
+.kp-bg-yellow-5 {
+  background-color: #FEF9F0;
+}
+
+/* Orange */
+
+.kp-bg-orange-1 {
+  background-color: #BA6045;
+}
+
+.kp-bg-orange-2 {
+  background-color: #FF8360;
+}
+
+.kp-bg-orange-3 {
+  background-color: #FFA48B;
+}
+
+.kp-bg-orange-4 {
+  background-color: #FFBBA8;
+}
+
+.kp-bg-orange-5 {
+  background-color: #FFF3F0;
+}
+
+/* Heading level */
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+.font-secondary {
+
+}
+
+strong {
+  font-weight: 700;
+  font-weight: bold;
+}
+
+b {
+  font-weight: 700;
+  font-weight: bold;
+}
+
+small {
+  font-size: 12px;
+}
+
+time {
+  font: 100%/1.5 'Poppins', 'Arial', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
